@@ -48,7 +48,7 @@
     }
 
     .tl-timeaxis {
-      height: 39px;
+      height: 79px;
     }
 
     .tl-timeera {
@@ -61,7 +61,11 @@
 
     #timeline-embed {
       width: 100%;
-      height: 1024px;
+      height: 100vh;
+    }
+
+    .tl-timenav {
+      height: 280px !important;
     }
   </style>
   <script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
@@ -315,6 +319,7 @@
       font: null,
       initial_zoom: 2,
       zoom_sequence: [5, 8, 13, 21],
+      timenav_position: 'top',
     });
   </script>
 </body>
